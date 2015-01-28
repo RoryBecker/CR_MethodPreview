@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="CR_MethodPreview">
+    <Name>'Method Preview' for CodeRush</Name>
+    <Author>Rory Becker</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">'Method Preview' for CodeRush provides an action 'ToggleMethodPreview', actionable from any method call whose source is available, which will provide that source as a preview window.</Description>
+    <Locale>1033</Locale>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+      </VisualStudio>
+      <VisualStudio Version="11.0">
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>|%CurrentProject%|</MefComponent>
+  </Content>
+</Vsix>
